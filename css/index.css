@@ -38,7 +38,8 @@ a{
 }
 
 
-.navMenu:before {
+.navMenu:after{
+   
     display: block;
     content: "";
     height: 3px;
@@ -50,7 +51,7 @@ a{
 }
 
 
-.navMenu:hover:before {
+.navMenu:hover:after {
     width: 100%;
 }
 
